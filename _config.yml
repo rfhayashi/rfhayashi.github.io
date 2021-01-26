@@ -1,0 +1,34 @@
+# Site settings
+title: Rui Fernando Hayashi
+description: 'Business Card Page'
+url: 'http://www.rfhayashi.com.br'
+baseurl: ''
+profilepic: '/images/rfhayashi.jpg'
+bkimage: '/images/marau.jpg'
+font_awesome: '07dec15a45.js'
+
+author:
+  name: 'Rui Fernando Hayashi'
+  email: rfhayashi@gmail.com
+# twitter_username: rfhayashi
+# facebook_username: rfhayashi
+  github_username:  rfhayashi
+  linkedin_username:  rfhayashi
+
+# Build settings
+destination: _site
+markdown: kramdown
+highlighter: rouge
+
+sass:
+    sass_dir: _sass
+    style: compressed
+
+kramdown:
+  # use Github Flavored Markdown
+  input: GFM
+  # do not replace newlines by <br>s
+  hard_wrap: false
+
+#plugins: ['jekyll-paginate']
+exclude: ['README.md', 'screenshot-overview.png']
